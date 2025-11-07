@@ -829,3 +829,5 @@ img.portrait {
   border-radius: 12px; 
   aspect-ratio: auto; 
 }
+/* Global img sanity */
+img{max-width:100%;height:auto}
