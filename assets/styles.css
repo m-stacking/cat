@@ -818,3 +818,14 @@ section:nth-child(even) {
   line-height: 1.6;
   color: var(--text);
 }
+/* Portrait image styling (auto center & responsive) */ 
+img.portrait { 
+  object-fit: contain; 
+  max-width: 600px; 
+  width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto 24px auto; 
+  border-radius: 12px; 
+  aspect-ratio: auto; 
+}
